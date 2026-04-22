@@ -1,0 +1,48 @@
+{
+  "model": "RandomForest",
+  "instance_idx": 12071,
+  "predicted_proba": 0.04955209614569093,
+  "predicted_class": "No Risk",
+  "explanation": [
+    {
+      "feature": "past_due_30_59 = -0.37",
+      "weight": 0.027767486704272645
+    },
+    {
+      "feature": "revolving_util = -0.88",
+      "weight": 0.022648407071716236
+    },
+    {
+      "feature": "dependents = -0.68",
+      "weight": 0.011408512351990892
+    },
+    {
+      "feature": "open_credit_lines = -0.69",
+      "weight": -0.010904401531740169
+    },
+    {
+      "feature": "debt_ratio = -0.33",
+      "weight": 0.009671150296141004
+    },
+    {
+      "feature": "real_estate_loans = -1.01",
+      "weight": 0.0070755250942346765
+    },
+    {
+      "feature": "age = 1.28",
+      "weight": 0.006831570857606614
+    },
+    {
+      "feature": "monthly_income = -0.19",
+      "weight": -0.006567254328516782
+    },
+    {
+      "feature": "past_due_60_89 = -0.22",
+      "weight": -0.0030917205799552215
+    },
+    {
+      "feature": "times_90_late = -0.22",
+      "weight": 0.0014894151296569002
+    }
+  ]
+}
